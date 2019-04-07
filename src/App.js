@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header'
 import Login from './components/Login'
 import Welcome from './components/Welcome'
-
+import Canvas from './components/Canvas'
 class App extends Component {
   constructor() {
     super()
@@ -36,6 +36,9 @@ class App extends Component {
                                              getLocation={this.getCurrentLocation}
                                              getUser={this.getCurrentUser}/>}
           {!this.state.loginDisplay && <Welcome currentUser={this.state.currentUser} />}
+        </div>
+        <div>
+          < Canvas />
         </div>
       </div>
     );
