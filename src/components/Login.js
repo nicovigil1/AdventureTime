@@ -8,9 +8,10 @@ export default class Login extends React.Component {
       .then(res => res.json())
       .then(person => this.props.getUser(person.Value))
       .then(this.props.display)
-      .then(this.props.getLocation) // .then(postLocation(this.props.getLocation))
+      .catch(err=> console.log(err))
   }
   postLocation = (geoResponse) => {
+    console.log(geoResponse)
     //fetch(`https://adventure-time-m4cap.herokuapp.com/locationEndpoint` {method: "POST", body: geoResponse})
   }
   render() {
