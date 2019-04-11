@@ -12,5 +12,3 @@ deploy:
   skip_cleanup: true
   domain: adventuretimes.surge.sh
   project: ./build/
-on:
-  branch: landing_page
