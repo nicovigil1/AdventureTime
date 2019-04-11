@@ -13,4 +13,4 @@ deploy:
   domain: adventuretimes.surge.sh
   project: ./build/
 on:
-  branch: master
+  branch: landing_page
