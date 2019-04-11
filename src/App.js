@@ -4,7 +4,6 @@ import './App.css';
 import Header from './components/Header'
 import Login from './components/Login'
 import Welcome from './components/Welcome'
-import Arena from './components/Arena'
 class App extends Component {
   constructor() {
     super()
@@ -87,7 +86,6 @@ class App extends Component {
               Enemy Health: {this.state.enemyHealth}
             </p>
           </div>}
-          {this.state.fight && < Arena />}
           {/* {this.state.fight && <button>Attack</button>} */}
         </div>
       </div>
