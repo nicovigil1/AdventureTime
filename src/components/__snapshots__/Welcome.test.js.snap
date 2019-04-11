@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<div
+  style={
+    Object {
+      "background": "rgba(206, 215, 219, 0.96)",
+      "borderRadius": "1em",
+      "padding": "1em",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <t
+      autoplay={true}
+      background=""
+      backgroundPosition=""
+      backgroundRepeat="no-repeat"
+      backgroundSize="cover"
+      className=""
+      direction="forward"
+      endAt={false}
+      fps={7}
+      getInstance={[Function]}
+      heightFrame={37}
+      id="player"
+      image="https://i.ibb.co/Kjd23z4/adventurer-1-3-Sheet.png"
+      isResponsive={true}
+      loop={true}
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onEachFrame={false}
+      onEnterFrame={false}
+      onInit={[Function]}
+      onLoopComplete={false}
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      onMouseUp={[Function]}
+      onPause={[Function]}
+      onPlay={[Function]}
+      onResize={false}
+      startAt={0}
+      steps={60}
+      style={
+        Object {
+          "height": "100px",
+          "width": "135px",
+        }
+      }
+      timeout={0}
+      widthFrame={50}
+    />
+  </div>
+  <h1>
+    Hello 
+    !
+  </h1>
+  <div>
+    <p>
+      Your Stats
+    </p>
+    <div />
+    <ul>
+      <li>
+        Health: 
+      </li>
+      <li>
+        XP: 
+      </li>
+    </ul>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <button
+        onClick={[Function]}
+      >
+        Quest Info
+      </button>
+      <br />
+      <button
+        onClick={[Function]}
+      >
+        Check In
+      </button>
+    </div>
+  </div>
+  <div />
+</div>
+`;
