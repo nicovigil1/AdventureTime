@@ -3,16 +3,24 @@ import React from 'react'
 export default class Login extends React.Component {
   getLogin = () => {
     let getLoginText = document.querySelector("#textBox").value
-    let url = `https://adventure-time-m4cap.herokuapp.com/api/v1/login?username=${getLoginText}`;
-    fetch(url, { method: "POST" })
-      .then(res => res.json())
-      .then(person => this.props.getUser(person.Value))
-      .then(this.props.display)
-      .catch(err=> console.log(err))
-  }
-  postLocation = (geoResponse) => {
-    console.log(geoResponse)
-    //fetch(`https://adventure-time-m4cap.herokuapp.com/locationEndpoint` {method: "POST", body: geoResponse})
+    console.log(getLoginText)
+    if (getLoginText !== "") {
+      let url = `https://adventure-time-m4cap.herokuapp.com/api/v1/login?username=${getLoginText}`;
+      fetch(url, { method: "POST" })
+        .then(res => res.json())
+        .then(person => {
+          if (person.Error) {
+            alert("User not found")
+            throw (new Error("whoops"))
+          } else {
+            this.props.getUser(person.Value)
+          }
+        })
+        .then(this.props.display)
+        .catch(err => {
+          console.log(err)
+        })
+    }
   }
   render() {
     return(

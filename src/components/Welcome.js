@@ -27,7 +27,6 @@ export default class Welcome extends React.Component {
       this.setState({currentLocation: location})
       // let lat = this.state.currentLocation.coords.latitude
       // let lon = this.state.currentLocation.coords.longitude
-      // console.log(this.props.currentUser.ID)
       // fetch(`https://adventure-time-m4cap.herokuapp.com/api/v1/checkin?user_id=${this.props.currentUser.ID}&lat=${lat}&long=${lon}`, {method: "POST"})
       fetch(`https://adventure-time-m4cap.herokuapp.com/api/v1/checkin?user_id=${this.props.currentUser.ID}&lat=39.7526897&long=-104.9962246`, {method: "POST"})
         .then(res => res.json())
@@ -41,10 +40,6 @@ export default class Welcome extends React.Component {
           }
         })
     })
-  }
-
-  goBack = (backto) => {
-    this.props.setTheState(backto)
   }
 
   render() {
@@ -77,7 +72,7 @@ export default class Welcome extends React.Component {
           </div>}
         </div>
         <div>
-          {this.state.displayNextLocation && < NextLocation quest={this.state.currentQuest} goBack={this.goBack}/>}
+          {this.state.displayNextLocation && < NextLocation quest={this.state.currentQuest} goBack={this.checkin}/>}
         </div>
       </div>
     )

@@ -34,7 +34,6 @@ const styleEnemy = {
   height: "200px", 
   width: "200px",
   position: "relative",
-  // top: "20vh",
   right: "13vw"
 }
 
@@ -43,8 +42,6 @@ const stylePlayer = {
   width: "200px",
   alignSelf: "flex-end",
   position: "relative",
-  // top: "20vh"
-  // left: "12.5vw",
 }
 
 const styleFlex = {

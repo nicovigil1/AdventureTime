@@ -29,14 +29,10 @@ export default class NextLocation extends React.Component {
     console.log(this.state.currentLocation)
   }
 
-  goBack = () => {
-    this.props.goBack({loginDisplay: true})
-  }
-
   render () {
     return (
       <div style={center}>
-        <button onClick={this.goBack}>Go back</button>
+        <button onClick={this.goBack}>Check In</button>
         <h1>Next location:</h1>
           <a href={"https://maps.google.com/?q=" + this.state.currentLocation}>{this.state.currentLocation}</a>
       </div>
