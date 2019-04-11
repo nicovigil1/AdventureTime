@@ -25,9 +25,9 @@ export default class Welcome extends React.Component {
   checkin = () => {
     navigator.geolocation.getCurrentPosition( location => {
       this.setState({currentLocation: location})
-      let lat = this.state.currentLocation.coords.latitude
-      let lon = this.state.currentLocation.coords.longitude
-      console.log(this.props.currentUser.ID)
+      // let lat = this.state.currentLocation.coords.latitude
+      // let lon = this.state.currentLocation.coords.longitude
+      // console.log(this.props.currentUser.ID)
       // fetch(`https://adventure-time-m4cap.herokuapp.com/api/v1/checkin?user_id=${this.props.currentUser.ID}&lat=${lat}&long=${lon}`, {method: "POST"})
       fetch(`https://adventure-time-m4cap.herokuapp.com/api/v1/checkin?user_id=${this.props.currentUser.ID}&lat=39.7526897&long=-104.9962246`, {method: "POST"})
         .then(res => res.json())
