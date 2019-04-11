@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<div
+  style={
+    Object {
+      "background": "rgba(206, 215, 219, 0.96)",
+      "borderRadius": "1em",
+      "display": "flex",
+      "flexDirection": "column",
+      "padding": "2em",
+      "textAlign": "center",
+    }
+  }
+>
+  <p>
+    Sign in Below!
+  </p>
+  <input
+    id="textBox"
+    type="text"
+  />
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "marginLeft": "2em",
+        "marginRight": "2em",
+        "marginTop": ".4em",
+      }
+    }
+  >
+    Login
+  </button>
+</div>
+`;

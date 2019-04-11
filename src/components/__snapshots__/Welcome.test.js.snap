@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<div
+  style={
+    Object {
+      "background": "rgba(206, 215, 219, 0.96)",
+      "borderRadius": "1em",
+      "padding": "1em",
+    }
+  }
+>
+  <h1>
+    Hello 
+    !
+  </h1>
+  <div>
+    <p>
+      Your Stats
+    </p>
+    <ul>
+      <li>
+        Health: 
+      </li>
+      <li>
+        XP: 
+      </li>
+    </ul>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <button>
+        Start Quest!
+      </button>
+      <button>
+        Replenish Health
+      </button>
+    </div>
+  </div>
+</div>
+`;

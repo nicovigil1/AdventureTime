@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#63b4f4",
+      "boxShadow": "0px 0px 10px 5px #000",
+      "color": "black",
+      "display": "flex",
+      "justifyContent": "center",
+      "paddingBottom": ".5em",
+      "paddingTop": ".5em",
+    }
+  }
+>
+  Welcome to AdventureTime
+</div>
+`;
