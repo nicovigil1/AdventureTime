@@ -10,6 +10,7 @@ exports[`Header should match the snapshot 1`] = `
     }
   }
 >
+<<<<<<< HEAD
   <div
     style={
       Object {
@@ -62,6 +63,8 @@ exports[`Header should match the snapshot 1`] = `
       widthFrame={50}
     />
   </div>
+=======
+>>>>>>> dbb6c65d6b1a0d577f6a9a3fe4b5f1e432d238ff
   <h1>
     Hello 
     !
@@ -70,7 +73,10 @@ exports[`Header should match the snapshot 1`] = `
     <p>
       Your Stats
     </p>
+<<<<<<< HEAD
     <div />
+=======
+>>>>>>> dbb6c65d6b1a0d577f6a9a3fe4b5f1e432d238ff
     <ul>
       <li>
         Health: 
@@ -87,6 +93,7 @@ exports[`Header should match the snapshot 1`] = `
         }
       }
     >
+<<<<<<< HEAD
       <button
         onClick={[Function]}
       >
@@ -101,5 +108,15 @@ exports[`Header should match the snapshot 1`] = `
     </div>
   </div>
   <div />
+=======
+      <button>
+        Start Quest!
+      </button>
+      <button>
+        Replenish Health
+      </button>
+    </div>
+  </div>
+>>>>>>> dbb6c65d6b1a0d577f6a9a3fe4b5f1e432d238ff
 </div>
 `;
