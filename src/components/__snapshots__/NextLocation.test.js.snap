@@ -9,9 +9,7 @@ exports[`Header should match the snapshot 1`] = `
     }
   }
 >
-  <button
-    onClick={[Function]}
-  >
+  <button>
     Check In
   </button>
   <h1>
