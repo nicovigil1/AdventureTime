@@ -22,6 +22,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - Jest/Enzyme
   
 ## Screenshots
+<img width="411" alt="Screen Shot 2019-04-10 at 11 27 14 PM" src="https://user-images.githubusercontent.com/35861146/55933459-94e4ac80-5bea-11e9-8030-17d22f7cb695.png">
+<img width="402" alt="Screen Shot 2019-04-10 at 11 27 40 PM" src="https://user-images.githubusercontent.com/35861146/55933462-97470680-5bea-11e9-9170-1fd14685b553.png">
+<img width="409" alt="Screen Shot 2019-04-10 at 11 28 28 PM" src="https://user-images.githubusercontent.com/35861146/55933458-931ae900-5bea-11e9-8f9d-7213f7323f10.png">
 
 
 
