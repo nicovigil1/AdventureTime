@@ -86,7 +86,6 @@ class App extends Component {
               Enemy Health: {this.state.enemyHealth}
             </p>
           </div>}
-          {/* {this.state.fight && <button>Attack</button>} */}
         </div>
       </div>
     );
